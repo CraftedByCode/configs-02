@@ -1,0 +1,140 @@
+
+--- 2024-09-22T05:11:27.367Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-22_05-11-27_033.log"
+---
+
+--- 2024-09-22T05:11:27.367Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158093:72)
+    at loadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158102:12)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:213632:20
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179343:16
+    at maybeAsyncResult (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177564:44)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179342:14
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177551:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-09-22T05:11:27.371Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-09-22T05:11:27.371Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-09-22T05:11:27.439Z log
+
+ ⛅️ wrangler 3.78.7
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-09-22T05:11:27.443Z log
+Attempting to login via OAuth...
+---
+
+--- 2024-09-22T05:11:27.472Z log
+Opening a link in your default browser: https://dash.cloudflare.com/oauth2/auth?response_type=code&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&scope=account%3Aread%20user%3Aread%20workers%3Awrite%20workers_kv%3Awrite%20workers_routes%3Awrite%20workers_scripts%3Awrite%20workers_tail%3Aread%20d1%3Awrite%20pages%3Awrite%20zone%3Aread%20ssl_certs%3Awrite%20ai%3Awrite%20queues%3Awrite%20pipelines%3Awrite%20offline_access&state=Z5AJht1VAQImKGLciPDVvDn_2xKcuVyz&code_challenge=wNH6BQl2nbGL2Th5Jg_SnCYILQFKgqubHEJfyXPvkoI&code_challenge_method=S256
+---
+
+--- 2024-09-22T05:11:48.172Z debug
+Checking if domain has Access enabled: dash.cloudflare.com
+---
+
+--- 2024-09-22T05:11:48.173Z debug
+Access switch not cached for: dash.cloudflare.com
+---
+
+--- 2024-09-22T05:11:48.616Z debug
+Caching access switch for: dash.cloudflare.com
+---
+
+--- 2024-09-22T05:11:50.025Z log
+Successfully logged in.
+---
+
+--- 2024-09-22T05:11:53.016Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships?page=1
+---
+
+--- 2024-09-22T05:11:53.017Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:53.017Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:53.017Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-09-22T05:11:54.741Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-09-22T05:11:54.742Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:54.742Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:54.742Z debug
+-- END CF API RESPONSE
+---
+
+--- 2024-09-22T05:11:54.743Z debug
+Saving to cache: {"account":{"id":"40313f4271b0dd4ee88f2e24130d2140","name":"Yogesh.fufa@gmail.com's Account"}}
+---
+
+--- 2024-09-22T05:11:54.753Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/40313f4271b0dd4ee88f2e24130d2140/d1/database
+---
+
+--- 2024-09-22T05:11:54.753Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:54.753Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:54.753Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-09-22T05:11:59.007Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-09-22T05:11:59.008Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:59.008Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T05:11:59.008Z debug
+-- END CF API RESPONSE
+---
+
+--- 2024-09-22T05:11:59.033Z log
+✅ Successfully created DB 'd1-database' in region APAC
+Created your new D1 database.
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "d1-database"
+database_id = "afc00725-a284-46b3-83ba-baf2c0e482d4"
+---

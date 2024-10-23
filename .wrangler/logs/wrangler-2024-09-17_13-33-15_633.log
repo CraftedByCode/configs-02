@@ -1,0 +1,23 @@
+
+--- 2024-09-17T13:33:15.805Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-17_13-33-15_633.log"
+---
+
+--- 2024-09-17T13:33:15.805Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158087:72)
+    at loadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158096:12)
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:213519:20
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:179282:16
+    at maybeAsyncResult (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:177503:44)
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:179281:14
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:177490:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---

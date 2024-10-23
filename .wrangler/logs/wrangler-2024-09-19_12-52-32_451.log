@@ -1,0 +1,151 @@
+
+--- 2024-09-19T12:52:34.634Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-19_12-52-32_451.log"
+---
+
+--- 2024-09-19T12:52:34.634Z log
+
+ ⛅️ wrangler 3.78.3
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-09-19T12:52:34.682Z debug
+Failed to load .env file "/home/yogix/Projects/Echozy/server/.dev.vars": Error: ENOENT: no such file or directory, open '/home/yogix/Projects/Echozy/server/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158087:72)
+    at loadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158096:12)
+    at getVarsForDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:176452:18)
+    at getBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215191:10)
+    at getResolvedBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215061:20)
+    at getBindingsAndLegacyAssetPaths (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215091:15)
+    at getDevReactElement (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214685:46)
+    at startDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214754:60) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/yogix/Projects/Echozy/server/.dev.vars'
+}
+---
+
+--- 2024-09-19T12:52:34.786Z log
+[2m⎔ Starting local server...[22m
+---
+
+--- 2024-09-19T12:52:44.970Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-09-19T12:52:44.974Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"44049"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"43329","pathname":"/core:user:server"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"da9539aa-6720-45cf-9e5e-9a490a86e396"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[],"entrypointAddresses":{"__INTERNAL_WRANGLER_MIDDLEWARE__":{"host":"127.0.0.1","port":44051},"default":{"host":"127.0.0.1","port":35209}}}}
+---
+
+--- 2024-09-19T12:52:44.975Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-09-19T12:52:44.976Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:43329/core:user:server
+---
+
+--- 2024-09-19T12:52:44.979Z debug
+[InspectorProxyWorker] SEND TO DEVTOOLS {"method":"Runtime.executionContextsCleared"}
+---
+
+--- 2024-09-19T12:52:44.983Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///home/yogix/Projects/Echozy/server/.wrangler/tmp/dev-4cDtHB/app.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1743,
+    endColumn: 87,
+    executionContextId: 64695009,
+    hash: '5f2bdecab18e21a5578ff293220185d42eb18710f8f96ac3f22b129f084f5661',
+    isLiveEdit: false,
+    sourceMapURL: 'app.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 52079,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'app.js'
+  }
+}
+---
+
+--- 2024-09-19T12:52:44.985Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 64695009,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '9107462685621106679.-2342643774960158473'
+    }
+  }
+}
+---
+
+--- 2024-09-19T12:52:44.986Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000001, result: {} }
+---
+
+--- 2024-09-19T12:52:44.986Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000002,
+  result: { debuggerId: '1532181907984040677.2552488297996902249' }
+}
+---
+
+--- 2024-09-19T12:52:44.988Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-09-19T12:52:44.989Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000001}
+---
+
+--- 2024-09-19T12:52:44.992Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000002}
+---
+
+--- 2024-09-19T12:52:44.993Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000003}
+---
+
+--- 2024-09-19T12:52:44.995Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000003, method: 'Network.enable', result: {} }
+---
+
+--- 2024-09-19T12:52:54.984Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000004}
+---
+
+--- 2024-09-19T12:52:54.985Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000004, result: { id: '5235cd4f5bf3c693' } }
+---
+
+--- 2024-09-19T12:52:55.412Z log
+Your choice has been saved in the following file: ../../../.config/.wrangler/metrics.json.
+
+  You can override the user level setting for a project in `wrangler.toml`:
+
+   - to disable sending metrics for a project: `send_metrics = false`
+   - to enable sending metrics for a project: `send_metrics = true`
+---
+
+--- 2024-09-19T12:52:55.413Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"run dev","properties":{"local":true,"usesTypeScript":true}}.
+---
+
+--- 2024-09-19T12:53:04.983Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000005}
+---
+
+--- 2024-09-19T12:53:04.984Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000005, result: { id: '5235cd4f5bf3c693' } }
+---

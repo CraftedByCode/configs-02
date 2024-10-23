@@ -1,0 +1,8 @@
+---
+"workspace:create_personal_folder": none
+"input:open_completion_suggestions": ctrl-space
+"editor_view:insert_autosuggestion": tab
+"input:clear_screen": ctrl-q
+"terminal:clear_blocks": ctrl-l
+"workspace:edit_prompt": ctrl-e
+"terminal:paste": ctrl-shift-V

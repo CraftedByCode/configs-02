@@ -1,0 +1,157 @@
+
+--- 2024-09-18T05:21:59.725Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-18_05-21-59_375.log"
+---
+
+--- 2024-09-18T05:21:59.725Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158087:72)
+    at loadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158096:12)
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:213519:20
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:179282:16
+    at maybeAsyncResult (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:177503:44)
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:179281:14
+    at /home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:177490:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-09-18T05:22:01.934Z log
+
+ ⛅️ wrangler 3.78.3 (update available [32m3.78.4[39m)
+[38;2;255;136;0m-------------------------------------------------------[39m
+
+---
+
+--- 2024-09-18T05:22:02.041Z debug
+Failed to load .env file "/home/yogix/Projects/Echozy/server/.dev.vars": Error: ENOENT: no such file or directory, open '/home/yogix/Projects/Echozy/server/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158087:72)
+    at loadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158096:12)
+    at getVarsForDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:176452:18)
+    at getBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215191:10)
+    at getResolvedBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215061:20)
+    at getBindingsAndLegacyAssetPaths (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215091:15)
+    at getDevReactElement (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214685:46)
+    at startDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214754:60) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/yogix/Projects/Echozy/server/.dev.vars'
+}
+---
+
+--- 2024-09-18T05:22:02.280Z log
+[2m⎔ Starting local server...[22m
+---
+
+--- 2024-09-18T05:22:02.556Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-09-18T05:22:02.563Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"37849"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"42633","pathname":"/core:user:server"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"d47e116f-aef0-4bb1-9eef-f302b469ec8d"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[],"entrypointAddresses":{"__INTERNAL_WRANGLER_MIDDLEWARE__":{"host":"127.0.0.1","port":36547},"default":{"host":"127.0.0.1","port":39175}}}}
+---
+
+--- 2024-09-18T05:22:02.565Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-09-18T05:22:02.566Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:42633/core:user:server
+---
+
+--- 2024-09-18T05:22:02.573Z debug
+[InspectorProxyWorker] SEND TO DEVTOOLS {"method":"Runtime.executionContextsCleared"}
+---
+
+--- 2024-09-18T05:22:02.578Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 224998913,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '-9074466364865748523.-2655220783901903994'
+    }
+  }
+}
+---
+
+--- 2024-09-18T05:22:02.579Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-09-18T05:22:02.582Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000001, result: {} }
+---
+
+--- 2024-09-18T05:22:02.583Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///home/yogix/Projects/Echozy/server/.wrangler/tmp/dev-R8nOjf/app.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1743,
+    endColumn: 87,
+    executionContextId: 224998913,
+    hash: '4b275fc4a8767f2f6cdffe35a80ca4cfab84d94c227b0aa79d56ce5436c42401',
+    isLiveEdit: false,
+    sourceMapURL: 'app.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 52079,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'app.js'
+  }
+}
+---
+
+--- 2024-09-18T05:22:02.585Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000001}
+---
+
+--- 2024-09-18T05:22:02.587Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000002}
+---
+
+--- 2024-09-18T05:22:02.589Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000003}
+---
+
+--- 2024-09-18T05:22:02.590Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000002,
+  result: { debuggerId: '-6873541301742233284.-1641547026438237786' }
+}
+---
+
+--- 2024-09-18T05:22:02.591Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000003, method: 'Network.enable', result: {} }
+---
+
+--- 2024-09-18T05:22:12.575Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000004}
+---
+
+--- 2024-09-18T05:22:12.577Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000004, result: { id: '7df2a9918526aa1e' } }
+---
+
+--- 2024-09-18T05:22:22.572Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000005}
+---
+
+--- 2024-09-18T05:22:22.574Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000005, result: { id: '7df2a9918526aa1e' } }
+---

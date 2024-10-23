@@ -1,0 +1,95 @@
+{
+  "cache": {
+    "closestlocation": {
+      "data": "bom",
+      "expiration": 1727171661
+    },
+    "database_names": {
+      "expiration": 1727494436,
+      "data": [
+        {
+          "dbId": "46f8b801-32f3-4d5f-acee-5b727ea1d2a6",
+          "Name": "user-db",
+          "Regions": [
+            "bom"
+          ],
+          "PrimaryRegion": "bom",
+          "Hostname": "user-db-yogexfufa.turso.io",
+          "Version": "0.24.25",
+          "Group": "default",
+          "Sleeping": false,
+          "Schema": "",
+          "is_schema": false
+        }
+      ]
+    },
+    "database_token": {
+      "46f8b801-32f3-4d5f-acee-5b727ea1d2a6": {
+        "expiration": 1727514236,
+        "data": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjc2NjU0MzYsImlhdCI6MTcyNzQ5MjYzNiwiaWQiOiI0NmY4YjgwMS0zMmYzLTRkNWYtYWNlZS01YjcyN2VhMWQyYTYifQ.PVlAktTm7Uo9ybKz1-R66qpQ5w6_8mXXujiFKtY4XhGwYIan19Efq-kRZS_xIgvk_MM0qnkj564_HxtO8dGYCw"
+      },
+      "a17739c3-9a65-4561-9327-65e7a12c930d": {
+        "data": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjczMTU4ODUsImlhdCI6MTcyNzE0MzA4NSwiaWQiOiJhMTc3MzljMy05YTY1LTQ1NjEtOTMyNy02NWU3YTEyYzkzMGQifQ.2zFa4Tx99FDhvCNocvdM_mQ2Zlmzl3_65OYg_Pp4L5PeFoPHjJRTg7BGBJBVBa16FTHnNdPG93Y3QDkG_FfGDg",
+        "expiration": 1727164685
+      }
+    },
+    "groups": {
+      "expiration": 0
+    },
+    "locations": {
+      "data": {
+        "ams": "Amsterdam, Netherlands",
+        "arn": "Stockholm, Sweden",
+        "atl": "Atlanta, Georgia (US)",
+        "bog": "Bogotá, Colombia",
+        "bom": "Mumbai, India",
+        "bos": "Boston, Massachusetts (US)",
+        "cdg": "Paris, France",
+        "den": "Denver, Colorado (US)",
+        "dfw": "Dallas, Texas (US)",
+        "ewr": "Secaucus, NJ (US)",
+        "eze": "Ezeiza, Argentina",
+        "fra": "Frankfurt, Germany",
+        "gdl": "Guadalajara, Mexico",
+        "gig": "Rio de Janeiro, Brazil",
+        "gru": "São Paulo, Brazil",
+        "hkg": "Hong Kong, Hong Kong",
+        "iad": "Ashburn, Virginia (US)",
+        "jnb": "Johannesburg, South Africa",
+        "lax": "Los Angeles, California (US)",
+        "lhr": "London, United Kingdom",
+        "mad": "Madrid, Spain",
+        "mia": "Miami, Florida (US)",
+        "nrt": "Tokyo, Japan",
+        "ord": "Chicago, Illinois (US)",
+        "otp": "Bucharest, Romania",
+        "phx": "Phoenix, Arizona (US)",
+        "qro": "Querétaro, Mexico",
+        "scl": "Santiago, Chile",
+        "sea": "Seattle, Washington (US)",
+        "sin": "Singapore, Singapore",
+        "sjc": "San Jose, California (US)",
+        "syd": "Sydney, Australia",
+        "waw": "Warsaw, Poland",
+        "yul": "Montreal, Canada",
+        "yyz": "Toronto, Canada"
+      },
+      "expiration": 1727171661
+    },
+    "token_valid": {
+      "eyjhbgcioijsuzi1niisimnhdci6imnsx0i3zdrqrdiymkfbqsisimtpzci6imluc18yyza4r3zneehymlncc3l0d2padm95cedjeduilcj0exaioijkv1qifq_eyjlehaioje3mjc3ndczotusimlhdci6mtcynze0mju5nswiaxnzijoiahr0chm6ly9jbgvyay50dxjzby50zwnoiiwianrpijoizdq3zmmwndkxnmm0ztcyzmuymjcilcjuymyioje3mjcxndi1otasinn1yii6invzzxjfmm1vckdxzus0d0plclrgzm9sazvrd2habxjoin0_hi3nwgy0n8c7mvh9894drj1ft-afou2nytlc-al5cszjgg6edsm3genavdg5igcrysllp3xo6pyumpdlrvyghukh4fi0czdrziy-yitpahajhnzxfqmqezrab36z_50hfwf7knesuaurcsvyeumzbgj4zryixeea4sncpcj4z5s6s2ujiaxf-ioaiwomkotju9fuu2vunvnca9_wzxo_bw2fqgf1-z2s9ey2wajtn_so_spk8i0572lzi4txk9uftmvj18-ieq-qx-xy-_qnmt_a47zfvdzmunyhpm1d6zscgl_9szweefy4jrteoc-mjlueeignbwa-yylxgka5ga": {
+        "data": true,
+        "expiration": 1727747395
+      }
+    }
+  },
+  "config": {
+    "last_update_check": 1727492665
+  },
+  "config-path": "",
+  "token": "eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDIyMkFBQSIsImtpZCI6Imluc18yYzA4R3ZNeEhYMlNCc3l0d2padm95cEdJeDUiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3Mjc3NDczOTUsImlhdCI6MTcyNzE0MjU5NSwiaXNzIjoiaHR0cHM6Ly9jbGVyay50dXJzby50ZWNoIiwianRpIjoiZDQ3ZmMwNDkxNmM0ZTcyZmUyMjciLCJuYmYiOjE3MjcxNDI1OTAsInN1YiI6InVzZXJfMm1VckdXZUs0d0plclRGZm9sazVRd2habXJoIn0.hI3NWGY0N8c7mVH9894drj1Ft-AfOu2nytLc-AL5CSZJgG6EdsM3gENaVdG5IGcRysLLP3xO6pyumPDLrVyGhUKh4fI0cZDrzIY-yiTpahAjHNzXfqmQEzrab36Z_50HFwf7kNESuAURCSVYeuMzBgJ4ZRyIXeeA4SncpCJ4z5s6S2ujIaxF-iOAIWomKoTJu9Fuu2vuNVNCa9_wZXO_BW2fQGF1-z2S9Ey2waJtN_SO_SpK8I0572LzI4txK9UfTmvJ18-ieq-Qx-XY-_qNMT_a47ZfvdzmUnYHPM1d6zsCgl_9SZwEEFy4jRtEOc-mJlUEeIGnbwa-YYLXGkA5gA",
+  "usedcommands": {
+    "auth_login": true
+  },
+  "username": "yogexfufa"
+}

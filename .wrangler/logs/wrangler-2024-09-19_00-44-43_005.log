@@ -1,0 +1,30 @@
+
+--- 2024-09-19T00:44:43.177Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-19_00-44-43_005.log"
+---
+
+--- 2024-09-19T00:44:43.177Z log
+
+ ⛅️ wrangler 3.78.3 (update available [32m3.78.5[39m)
+[38;2;255;136;0m-------------------------------------------------------[39m
+
+---
+
+--- 2024-09-19T00:44:43.212Z debug
+Failed to load .env file "/home/yogix/Projects/Echozy/server/.dev.vars": Error: ENOENT: no such file or directory, open '/home/yogix/Projects/Echozy/server/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158087:72)
+    at loadDotEnv (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:158096:12)
+    at getVarsForDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:176452:18)
+    at getBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215191:10)
+    at getResolvedBindings (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215061:20)
+    at getBindingsAndLegacyAssetPaths (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:215091:15)
+    at getDevReactElement (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214685:46)
+    at startDev (/home/yogix/Projects/Echozy/server/node_modules/wrangler/wrangler-dist/cli.js:214754:60) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/yogix/Projects/Echozy/server/.dev.vars'
+}
+---

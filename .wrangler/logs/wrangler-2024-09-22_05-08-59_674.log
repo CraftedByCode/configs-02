@@ -1,0 +1,54 @@
+
+--- 2024-09-22T05:08:59.928Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-22_05-08-59_674.log"
+---
+
+--- 2024-09-22T05:08:59.928Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158093:72)
+    at loadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158102:12)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:213632:20
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179343:16
+    at maybeAsyncResult (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177564:44)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179342:14
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177551:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-09-22T05:08:59.930Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-09-22T05:08:59.930Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-09-22T05:08:59.959Z log
+
+ ⛅️ wrangler 3.78.7
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-09-22T05:08:59.962Z log
+Attempting to login via OAuth...
+---
+
+--- 2024-09-22T05:08:59.985Z log
+Opening a link in your default browser: https://dash.cloudflare.com/oauth2/auth?response_type=code&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&scope=account%3Aread%20user%3Aread%20workers%3Awrite%20workers_kv%3Awrite%20workers_routes%3Awrite%20workers_scripts%3Awrite%20workers_tail%3Aread%20d1%3Awrite%20pages%3Awrite%20zone%3Aread%20ssl_certs%3Awrite%20ai%3Awrite%20queues%3Awrite%20pipelines%3Awrite%20offline_access&state=ivDmTQj__1Y-he5UCt9-V_iaz0K2JdF.&code_challenge=zH-xZQu3LngUJFyy8ZRNY8DwewJ4Q-SFHu02ehmlRgY&code_challenge_method=S256
+---
+
+--- 2024-09-22T05:10:59.744Z debug
+Checking if domain has Access enabled: dash.cloudflare.com
+---
+
+--- 2024-09-22T05:10:59.744Z debug
+Access switch not cached for: dash.cloudflare.com
+---

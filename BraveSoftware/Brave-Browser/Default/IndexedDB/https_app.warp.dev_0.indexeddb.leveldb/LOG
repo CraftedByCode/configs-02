@@ -1,0 +1,7 @@
+2024/09/20-08:10:22.407 4b1 Reusing MANIFEST /home/yogix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.warp.dev_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/20-08:10:22.408 4b1 Recovering log #4
+2024/09/20-08:10:22.409 4b1 Reusing old log /home/yogix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.warp.dev_0.indexeddb.leveldb/000004.log 
+2024/09/20-08:10:22.442 4b1 Level-0 table #8: started
+2024/09/20-08:10:22.449 4b1 Level-0 table #8: 5133 bytes OK
+2024/09/20-08:10:22.454 4b1 Delete type=0 #4
+2024/09/20-08:10:22.455 4b1 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

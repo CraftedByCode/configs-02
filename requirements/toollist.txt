@@ -1,0 +1,10 @@
+docker
+pyenv-virtualenv
+jupyterlab
+pipx
+litecli
+pgloader
+sbcl
+pgcli
+yarn
+pnpm

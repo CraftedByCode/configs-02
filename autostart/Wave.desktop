@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Wave
+Exec=/opt/Wave/Wave %U
+Terminal=false
+Type=Application
+Icon=Wave
+StartupWMClass=Wave
+Comment=An Open-Source, AI-Native, Terminal Built for Seamless Workflows
+Keywords=developer;terminal;emulator;
+category=Development;Utility;
+Categories=TerminalEmulator;

@@ -1,0 +1,421 @@
+
+--- 2024-09-21T12:27:48.936Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-21_12-27-48_808.log"
+---
+
+--- 2024-09-21T12:27:48.936Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158093:72)
+    at loadDotEnv (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158102:12)
+    at /home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:213632:20
+    at /home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179343:16
+    at maybeAsyncResult (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177564:44)
+    at /home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179342:14
+    at /home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177551:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-09-21T12:27:48.957Z log
+
+ ⛅️ wrangler 3.78.7
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-09-21T12:27:48.983Z debug
+Failed to load .env file "/home/yogix/Projects/serverless-api/.dev.vars": Error: ENOENT: no such file or directory, open '/home/yogix/Projects/serverless-api/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158093:72)
+    at loadDotEnv (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158102:12)
+    at getVarsForDev (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:176513:18)
+    at getBindings (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:215311:10)
+    at getResolvedBindings (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:215181:20)
+    at getBindingsAndLegacyAssetPaths (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:215211:15)
+    at getDevReactElement (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:214815:46)
+    at startDev (/home/yogix/Projects/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:214884:60) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/yogix/Projects/serverless-api/.dev.vars'
+}
+---
+
+--- 2024-09-21T12:27:48.991Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"run dev","properties":{"local":true,"usesTypeScript":true}}.
+---
+
+--- 2024-09-21T12:27:49.172Z log
+[2m⎔ Starting local server...[22m
+---
+
+--- 2024-09-21T12:27:49.251Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-09-21T12:27:49.361Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"34167"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"43961","pathname":"/core:user:serverless-api"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"a546155b-d3ae-4a8d-ac1b-f0f94d65f823"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[],"entrypointAddresses":{"__INTERNAL_WRANGLER_MIDDLEWARE__":{"host":"127.0.0.1","port":33241},"default":{"host":"127.0.0.1","port":41959}}}}
+---
+
+--- 2024-09-21T12:27:49.362Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-09-21T12:27:49.363Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-09-21T12:27:49.365Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///home/yogix/Projects/serverless-api/.wrangler/tmp/dev-GScthK/index.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1746,
+    endColumn: 90,
+    executionContextId: 34363969,
+    hash: '0b08fe7883313e161a41ea24424b21875a8ba546b5215d81c04a33f213cfa7e0',
+    isLiveEdit: false,
+    sourceMapURL: 'index.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 52128,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'index.js'
+  }
+}
+---
+
+--- 2024-09-21T12:27:49.365Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:43961/core:user:serverless-api
+---
+
+--- 2024-09-21T12:27:49.373Z debug
+[InspectorProxyWorker] SEND TO DEVTOOLS {"method":"Runtime.executionContextsCleared"}
+---
+
+--- 2024-09-21T12:27:49.374Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000001}
+---
+
+--- 2024-09-21T12:27:49.375Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000002}
+---
+
+--- 2024-09-21T12:27:49.375Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000003}
+---
+
+--- 2024-09-21T12:27:49.377Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 34363969,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '850764712550474752.-6072534177988691667'
+    }
+  }
+}
+---
+
+--- 2024-09-21T12:27:49.378Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000001, result: {} }
+---
+
+--- 2024-09-21T12:27:49.379Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000002,
+  result: { debuggerId: '-3919719996100822676.-7827725549136845252' }
+}
+---
+
+--- 2024-09-21T12:27:49.379Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000003, method: 'Network.enable', result: {} }
+---
+
+--- 2024-09-21T12:27:59.368Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000004}
+---
+
+--- 2024-09-21T12:27:59.369Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000004, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:09.368Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000005}
+---
+
+--- 2024-09-21T12:28:09.369Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000005, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:19.366Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000006}
+---
+
+--- 2024-09-21T12:28:19.367Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000006, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:29.368Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000007}
+---
+
+--- 2024-09-21T12:28:29.369Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000007, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:39.367Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000008}
+---
+
+--- 2024-09-21T12:28:39.368Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000008, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:49.368Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000009}
+---
+
+--- 2024-09-21T12:28:49.369Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000009, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:28:59.363Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000010}
+---
+
+--- 2024-09-21T12:28:59.364Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000010, result: { id: 'a34a47488fc9b047' } }
+---
+
+--- 2024-09-21T12:29:08.566Z log
+[2m⎔ Reloading local server...[22m
+---
+
+--- 2024-09-21T12:29:08.578Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-09-21T12:29:08.586Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.discardConsoleEntries","id":100000011}
+---
+
+--- 2024-09-21T12:29:08.587Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000011, result: {} }
+---
+
+--- 2024-09-21T12:29:08.608Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET CLOSED 1006 WebSocket disconnected without sending Close frame.
+---
+
+--- 2024-09-21T12:29:08.682Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"39745"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"43961","pathname":"/core:user:serverless-api"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"a546155b-d3ae-4a8d-ac1b-f0f94d65f823"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[],"entrypointAddresses":{"__INTERNAL_WRANGLER_MIDDLEWARE__":{"host":"127.0.0.1","port":33241},"default":{"host":"127.0.0.1","port":41959}}}}
+---
+
+--- 2024-09-21T12:29:08.683Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-09-21T12:29:08.683Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:43961/core:user:serverless-api
+---
+
+--- 2024-09-21T12:29:08.684Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 32010049,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '-2739629122961753023.1272816423325651839'
+    }
+  }
+}
+---
+
+--- 2024-09-21T12:29:08.684Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000013,
+  result: { debuggerId: '-4345304743062758224.-2083204486625647130' }
+}
+---
+
+--- 2024-09-21T12:29:08.685Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///home/yogix/Projects/serverless-api/.wrangler/tmp/dev-GScthK/index.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1746,
+    endColumn: 90,
+    executionContextId: 32010049,
+    hash: '0b08fe7883313e161a41ea24424b21875a8ba546b5215d81c04a33f213cfa7e0',
+    isLiveEdit: false,
+    sourceMapURL: 'index.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 52128,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'index.js'
+  }
+}
+---
+
+--- 2024-09-21T12:29:08.685Z debug
+[InspectorProxyWorker] SEND TO DEVTOOLS {"method":"Runtime.executionContextsCleared"}
+---
+
+--- 2024-09-21T12:29:08.686Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-09-21T12:29:08.687Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000012}
+---
+
+--- 2024-09-21T12:29:08.689Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000013}
+---
+
+--- 2024-09-21T12:29:08.690Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000014}
+---
+
+--- 2024-09-21T12:29:08.690Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000012, result: {} }
+---
+
+--- 2024-09-21T12:29:08.691Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000014, method: 'Network.enable', result: {} }
+---
+
+--- 2024-09-21T12:29:18.686Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000015}
+---
+
+--- 2024-09-21T12:29:18.688Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000015, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:29:28.690Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000016}
+---
+
+--- 2024-09-21T12:29:28.696Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000016, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:29:38.689Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000017}
+---
+
+--- 2024-09-21T12:29:38.690Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000017, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:29:48.688Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000018}
+---
+
+--- 2024-09-21T12:29:48.689Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000018, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:29:58.688Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000019}
+---
+
+--- 2024-09-21T12:29:58.688Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000019, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:30:08.688Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000020}
+---
+
+--- 2024-09-21T12:30:08.689Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000020, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:30:18.689Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000021}
+---
+
+--- 2024-09-21T12:30:18.690Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000021, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:30:28.688Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000022}
+---
+
+--- 2024-09-21T12:30:28.688Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000022, result: { id: 'b59ef8a23882283f' } }
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+DevEnv teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+ConfigController teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+BundlerController teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+LocalRuntimeController teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+RemoteRuntimeController teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+RemoteRuntimeController teardown complete
+---
+
+--- 2024-09-21T12:30:29.295Z debug
+ProxyController teardown beginning...
+---
+
+--- 2024-09-21T12:30:29.300Z log
+[2m⎔ Shutting down local server...[22m
+---
+
+--- 2024-09-21T12:30:29.300Z debug
+LocalRuntimeController teardown complete
+---
+
+--- 2024-09-21T12:30:29.301Z debug
+ConfigController teardown complete
+---
+
+--- 2024-09-21T12:30:29.301Z debug
+BundlerController teardown complete
+---
+
+--- 2024-09-21T12:30:29.306Z debug
+ProxyController teardown complete
+---
+
+--- 2024-09-21T12:30:29.307Z debug
+DevEnv teardown complete
+---

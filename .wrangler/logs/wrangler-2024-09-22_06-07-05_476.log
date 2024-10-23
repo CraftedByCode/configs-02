@@ -1,0 +1,58 @@
+
+--- 2024-09-22T06:07:05.909Z debug
+🪵  Writing logs to "/home/yogix/.config/.wrangler/logs/wrangler-2024-09-22_06-07-05_476.log"
+---
+
+--- 2024-09-22T06:07:05.909Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158093:72)
+    at loadDotEnv (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:158102:12)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:213632:20
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179343:16
+    at maybeAsyncResult (/home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177564:44)
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:179342:14
+    at /home/yogix/Projects/hono/serverless-api/node_modules/wrangler/wrangler-dist/cli.js:177551:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-09-22T06:07:05.911Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-09-22T06:07:05.911Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-09-22T06:07:05.948Z log
+
+ ⛅️ wrangler 3.78.7
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-09-22T06:07:05.953Z debug
+Retrieving cached values for account from node_modules/.cache/wrangler
+---
+
+--- 2024-09-22T06:07:05.953Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/40313f4271b0dd4ee88f2e24130d2140/d1/database
+---
+
+--- 2024-09-22T06:07:05.953Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T06:07:05.953Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-09-22T06:07:05.953Z debug
+-- END CF API REQUEST
+---
